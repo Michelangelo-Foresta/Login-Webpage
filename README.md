@@ -3,13 +3,13 @@
 Change information on the databaseCon.php to configure your database.
 
 <h1>Database Table Structure</h1>
-CREATE TABLE `users` (
-  `username` text NOT NULL PRIMARY,
-  `password` text NOT NULL,
-  `status` text NOT NULL,
-  `country` text NOT NULL,
-  `firstname` text NOT NULL,
-  `lastname` text NOT NULL,
-  `email` text NOT NULL,
-  `children` int(11) NOT NULL
-)
+CREATE TABLE `users` (<br>
+  `username` text NOT NULL PRIMARY,<br>
+  `password` text NOT NULL,<br>
+  `status` text NOT NULL,<br>
+  `country` text NOT NULL,<br>
+  `firstname` text NOT NULL,<br>
+  `lastname` text NOT NULL,<br>
+  `email` text NOT NULL,<br>
+  `children` int(11) NOT NULL<br>
+)<br>
