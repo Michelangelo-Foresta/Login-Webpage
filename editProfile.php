@@ -68,7 +68,7 @@
         <span id="alert1" style="display:none">Minimum of 1 special character</span>
         <span id="alert2" style="display:none">Minimum of 1 uppercase character</span>
         <span id="alert3" style="margin-bottom:10px;display:none" >Passwords must match</span>
-    <div>
+    </div>
     <h1 style="text-align:center">Update Profile</h1>
     <div id="login">
         <form method="post">

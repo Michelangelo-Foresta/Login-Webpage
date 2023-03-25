@@ -171,4 +171,5 @@
 </section>   
 
 </body>
+<footer><script src="php1.js"></script></footer>
 </html>
