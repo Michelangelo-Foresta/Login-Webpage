@@ -82,7 +82,7 @@
         </div>
     </form>
     <form method="post">
-        <button name="forgotpassbutton" id="forgotpassbutton" ><h3>Forgot Password?</h3></button>
+        <button style="margin-bottom:10px" name="forgotpassbutton" id="forgotpassbutton" ><h3>Forgot Password?</h3></button>
     </form>
     <form action="RegistrationForm.php">
         <button name="signupbutton" id="Signupbutton"><h3>Sign Up</h3></button>

@@ -9,10 +9,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 30px;
   align-content: center;
   flex-direction: column;
   column-gap: 10px;
   row-gap: 10px;
+}
+
+.userInfo{
+  border-width: 1px; 
+  border-style:solid;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 100px;
+  margin-bottom: 5px;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 table {
@@ -123,6 +135,8 @@ button{
     flex-direction: row;
 }
 
+
+
 #update {
     width: 220px;
     height: 50px;
@@ -169,7 +183,7 @@ label{
     z-index: 0;
     border-radius: 10px;
   }
-
+  
   .glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -212,7 +226,7 @@ label{
   .glow-on-hover:active {
     color: #000
   }
-
+  
 #update:active:after {
     background: transparent;
   }
@@ -220,7 +234,7 @@ label{
   .glow-on-hover:active:after {
     background: transparent;
   }
-
+  
   #update:before {
     opacity: 1;
   }
@@ -255,7 +269,7 @@ label{
     top: 0;
     border-radius: 10px;
   }
-
+  
   @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
@@ -267,4 +281,5 @@ label{
    justify-content: center;
    position: relative;
    margin-top:20px;
+   margin-bottom: 40px;
   }

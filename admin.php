@@ -105,29 +105,29 @@
 </section>    
       
 <section id="updateProfileSettings">
-    <h1 style="text-align:center"><?php echo ucfirst(fetchData(4));?>'s Profile</h1>
+    <h1 style="text-align:center;font-size:xx-large"><?php echo ucfirst(fetchData(4));?>'s Profile</h1>
     <div id="login">
            <div id="second">
                <label>First name: </label>
-               <h3><?php echo fetchData(4)?></h3>
+               <div class="userInfo"><?php echo ucfirst(fetchData(4))?></div>
 
                <label>Last name: </label>
-               <h3><?php echo fetchData(5)?></h3>
+               <div class="userInfo"><?php echo ucfirst(fetchData(5))?></div>
 
                <label>Email address: </label>
-               <h3><?php echo fetchData(6)?></h3>
+               <div class="userInfo"><?php echo fetchData(6)?></div>
            </div>
 
            <div id="third">
                <label>Country: </label>
-               <h3><?php echo locale_get_display_region("-".fetchData(3)) ?></h3>
+               <div class="userInfo"><?php echo fetchData(3) ?></div>
              
 
                <label>Marital status: </label>
-               <h3><?php echo ucfirst(fetchData(2)) ?></h3>
+               <div class="userInfo"><?php echo ucfirst(fetchData(2)) ?></div>
 
                <label for="kids">Number of children: </label>
-               <h3><?php echo fetchData(7) ?></h3>
+               <div class="userInfo"><?php echo fetchData(7) ?></div>
            </div>
 
             <div id="updatebutton">

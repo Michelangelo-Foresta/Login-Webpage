@@ -72,12 +72,14 @@
     <h1 style="text-align:center">Update Profile</h1>
     <div id="login">
         <form method="post">
+            <div id="first">
                 <label for="username">Username: </label><br>
                 <input type="text" placeholder="<?php echo fetchData(0) ?>" name="username" readonly><br>
 
                 <label for="password">Password: </label><br>
                 <input type="password" placeholder="<?php echo fetchData(1)?>" name="password" id="password" ><br>
-            
+            </div>
+            <div id="second">
                 <label>First name: </label><br>
                 <input type="text" placeholder="<?php echo fetchData(4)?>" name="firstname"><br>
 
@@ -86,9 +88,9 @@
 
                 <label>Email address: </label><br>
                 <input type="text" placeholder="<?php echo fetchData(6)?>" name="email"><br>
-            
+            </div>
 
-           
+            <div id="third">
                 <label>Country: </label><br>
                 <select id="country" name="country" >
                     <option><?php echo locale_get_display_region("-".fetchData(3)) ?></option>
@@ -346,15 +348,16 @@
                     <option value="ZW">Zimbabwe</option>
                 </select><br>
 
-         <label>Marital status: </label><br>
-         <select id="status" name="status" >
-            <option><?php echo ucfirst(fetchData(2)) ?></option>
-            <option value="married">Married</option>
-            <option value="single">Single</option>
-         </select><br>
-         <label for="kids">Number of children: </label><br>
-         <input type="text" placeholder="<?php echo fetchData(7) ?>" name="children"><br>
-       
+                <label>Marital status: </label><br>
+                <select id="status" name="status" >
+                    <option><?php echo ucfirst(fetchData(2)) ?></option>
+                    <option value="married">Married</option>
+                    <option value="single">Single</option>
+                </select><br>
+
+                <label for="kids">Number of children: </label><br>
+                <input type="text" placeholder="<?php echo fetchData(7) ?>" name="children"><br>
+            </div>
         <div id="updatebutton">
             <button type="submit" name="update" id="update">Submit</button>
         </div>
